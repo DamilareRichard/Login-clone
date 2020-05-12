@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 *{
+	-o-
+	-moz-
+	-webkit-
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -191,7 +194,7 @@ h1{
 	 }
 }
 
-@media(max-width: 760px){
+@media(max-width: 768px){
 
 	body{
 		overflow: auto;
